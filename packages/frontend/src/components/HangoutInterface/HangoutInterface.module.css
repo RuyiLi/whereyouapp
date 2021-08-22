@@ -1,0 +1,18 @@
+.HangoutInterface {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 14rem;
+  background: #ededed;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  z-index: 9999;
+}
+
+.HangoutInterface:hover {
+  width: 18rem;
+}

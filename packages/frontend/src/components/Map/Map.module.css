@@ -1,0 +1,10 @@
+.Map {
+}
+
+.MapFrame {
+  position: absolute;
+  top: 0;
+  left: 14rem;
+  right: 14rem;
+  height: 100vh;
+}

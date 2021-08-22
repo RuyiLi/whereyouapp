@@ -1,0 +1,19 @@
+{
+  "name": "whereyouapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruyi Li",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:be": "yarn workspace backend dev",
+    "start:fe": "yarn workspace frontend dev",
+    "start": "concurrently \"yarn start:be\" \"yarn start:fe\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
